@@ -1,0 +1,366 @@
+Script started on 2022-04-07 11:28:07+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="101" LINES="55"]
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/Entrega4_mqtt[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/Entrega4_mqtt[00m$ python3 broker.py 147.96.133.131clear[Kpython3 broker.py 147.96.133.131clear[Kpython3 broker.py 147.96.133.131clear[Kpython3 broker.py 147.96.133.131clear[Kpython3 broker.py 147.96.133.131client.py 6001 147.96.133.131 147.96.133.131[A]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/Entrega4_mqtt[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/Entrega4_mqtt[00m$ clear[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython3 client.py 6001 147.96.133.131 147.96.133.131[A]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/Entrega4_mqtt[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/Entrega4_mqtt[00m$ clear[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython3 client.py 6001 147.96.133.131 147.96.133.131[A]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/Entrega4_mqtt[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/Entrega4_mqtt[00m$ [C[C[C[C[C[C[C[C[12Pbroker.py 147.96.133.131
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[Kpython3 broker.py 147.96.133.131clear[Kpython3 broker.py 147.96.133.131clear[Kpython3 broker.py 147.96.133.131clear[Kpython3 broker.py 147.96.133.131[Kpython3 broker.py 147.96.133.131[Kpython3 02_combine_numbers.py wild.mat.ucm.e s
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Sending CONNECT (u0, p0, wr0, wq0, wf0, c1, k60) client_id=b'combine_numbers'
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Sending SUBSCRIBE (d0, m1) [(b'numbers', 0)]
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received CONNACK (0, 0)
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received SUBACK
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (18 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.4381000107204548'
+timer working. timeout: 2.236685174777131
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (2 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'72'
+timer working. timeout: 18.22341752000317
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (18 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.5446030628226433'
+timer working. timeout: 10.924650785249817
+timer end working
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (19 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.14746469037751542'
+timer working. timeout: 9.443122686554222
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (2 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'59'
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (18 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.3776092937150147'
+timer working. timeout: 15.759802348918901
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (1 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'2'
+timer working. timeout: 0.06906080494439637
+timer end working
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (2 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'61'
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (18 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.5698207263075945'
+timer working. timeout: 12.904500984522276
+timer end working
+timer end working
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (19 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.17892276176072763'
+timer working. timeout: 11.550083409973517
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (2 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'18'
+timer working. timeout: 8.224281142491478
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (18 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.4270678352924484'
+timer working. timeout: 4.108202105877734
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (18 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.6319775815635632'
+timer working. timeout: 9.215238820143734
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (19 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.49928633283956936'
+timer working. timeout: 6.4778167843336725
+timer end working
+timer end working
+timer end working
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (18 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.3941862879540208'
+timer working. timeout: 6.27313815177728
+timer end working
+timer end working
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (18 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.5338784490428736'
+timer working. timeout: 2.2094758868040953
+timer end working
+timer end working
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (18 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.3244846222447255'
+timer working. timeout: 3.790262593235836
+timer end working
+timer end working
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (2 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'27'
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (2 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'76'
+timer working. timeout: 1.6076304951298037
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (2 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'44'
+timer working. timeout: 10.207842219362334
+timer end working
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (18 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.3313932162134309'
+timer working. timeout: 8.198978949107232
+timer end working
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (19 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.42212113201000223'
+timer working. timeout: 13.232543403959262
+timer end working
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (2 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'35'
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (2 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'11'
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (18 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.1391080330101222'
+timer working. timeout: 19.107797512432906
+timer end working
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (2 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'96'
+timer working. timeout: 2.205977003214412
+timer end working
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (19 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.30812496283507795'
+timer working. timeout: 5.966791904638584
+timer end working
+LOG {'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (1 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f2e19e3f070>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'8'
+timer working. timeout: 12.702303088611506
+^CProcess Process-20:
+Process Process-23:
+Process Process-22:
+Process Process-19:
+Traceback (most recent call last):
+  File "02_combine_numbers.py", line 93, in <module>
+    main(broker)
+  File "02_combine_numbers.py", line 85, in main
+    mqttc.loop_forever()
+  File "/home/juan/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1756, in loop_forever
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "02_combine_numbers.py", line 54, in timer
+    sleep(time)
+  File "02_combine_numbers.py", line 54, in timer
+    sleep(time)
+Traceback (most recent call last):
+Traceback (most recent call last):
+KeyboardInterrupt
+KeyboardInterrupt
+  File "/usr/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "02_combine_numbers.py", line 54, in timer
+    sleep(time)
+  File "02_combine_numbers.py", line 54, in timer
+    sleep(time)
+KeyboardInterrupt
+KeyboardInterrupt
+    rc = self._loop(timeout)
+  File "/home/juan/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1150, in _loop
+    socklist = select.select(rlist, wlist, [], timeout)
+KeyboardInterrupt
+
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/Entrega4_mqtt[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/Entrega4_mqtt[00m$ python3 02_combine_numbers.py wild.mat.ucm.es[A]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/Entrega4_mqtt[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/Entrega4_mqtt[00m$ [C[C[C[C[C[C[C[C[12Pbroker.py 147.96.133.131
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C02_combine_numbers.py wild.mat.ucm.es[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.py wild.mat.ucm.es [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@3[1@_temperatures.py.py wild.mat.ucm.es[A]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/Entrega4_mqtt[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/Entrega4_mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.py wild.mat.ucm.es [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+on_message temperature/t1 b'18'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'18']}}
+on_message temperature/t2 b'16'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'18'], 't2': [b'16']}}
+on_message temperature/t1 b'19'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'19'], 't2': [b'16']}}
+on_message temperature/t2 b'21'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'19'], 't2': [b'21']}}
+on_message temperature/t1 b'20'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'20'], 't2': [b'21']}}
+on_message temperature/t2 b'19'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'20'], 't2': [b'19']}}
+on_message temperature/t1 b'21'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'21'], 't2': [b'19']}}
+on_message temperature/t2 b'21'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'21'], 't2': [b'21']}}
+on_message temperature/t1 b'22'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'22'], 't2': [b'21']}}
+on_message temperature/t2 b'21'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'22'], 't2': [b'21']}}
+on_message temperature/t1 b'23'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23'], 't2': [b'21']}}
+on_message temperature/t2 b'24'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23'], 't2': [b'24']}}
+mean t1: 23.0
+mean t2: 24.0
+on_message temperature/t1 b'24'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24'], 't2': [b'24']}, 't1': [], 't2': []}
+on_message temperature/t2 b'24'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24'], 't2': [b'24', b'24']}, 't1': [], 't2': []}
+on_message temperature/t1 b'25'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25'], 't2': [b'24', b'24']}, 't1': [], 't2': []}
+on_message temperature/t2 b'23'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25'], 't2': [b'24', b'24', b'23']}, 't1': [], 't2': []}
+on_message temperature/t1 b'26'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26'], 't2': [b'24', b'24', b'23']}, 't1': [], 't2': []}
+on_message temperature/t2 b'27'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26'], 't2': [b'24', b'24', b'23', b'27']}, 't1': [], 't2': []}
+on_message temperature/t1 b'27'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27'], 't2': [b'24', b'24', b'23', b'27']}, 't1': [], 't2': []}
+on_message temperature/t2 b'26'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27'], 't2': [b'24', b'24', b'23', b'27', b'26']}, 't1': [], 't2': []}
+on_message temperature/t1 b'28'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28'], 't2': [b'24', b'24', b'23', b'27', b'26']}, 't1': [], 't2': []}
+on_message temperature/t2 b'26'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26']}, 't1': [], 't2': []}
+on_message temperature/t1 b'29'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26']}, 't1': [], 't2': []}
+on_message temperature/t2 b'28'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28']}, 't1': [], 't2': []}
+mean t1: 26.0
+mean t2: 25.428571428571427
+on_message temperature/t1 b'30'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28']}, 't1': [], 't2': []}
+on_message temperature/t2 b'28'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28']}, 't1': [], 't2': []}
+on_message temperature/t1 b'31'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28']}, 't1': [], 't2': []}
+on_message temperature/t2 b'32'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32']}, 't1': [], 't2': []}
+on_message temperature/t1 b'32'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32']}, 't1': [], 't2': []}
+on_message temperature/t2 b'30'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30']}, 't1': [], 't2': []}
+on_message temperature/t1 b'33'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30']}, 't1': [], 't2': []}
+on_message temperature/t2 b'35'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35']}, 't1': [], 't2': []}
+on_message temperature/t1 b'34'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35']}, 't1': [], 't2': []}
+on_message temperature/t2 b'34'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35', b'34']}, 't1': [], 't2': []}
+mean t1: 28.5
+mean t2: 28.083333333333332
+on_message temperature/t1 b'35'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34', b'35'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35', b'34']}, 't1': [], 't2': []}
+on_message temperature/t2 b'37'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34', b'35'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35', b'34', b'37']}, 't1': [], 't2': []}
+on_message temperature/t1 b'36'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34', b'35', b'36'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35', b'34', b'37']}, 't1': [], 't2': []}
+on_message temperature/t2 b'36'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34', b'35', b'36'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35', b'34', b'37', b'36']}, 't1': [], 't2': []}
+on_message temperature/t1 b'37'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34', b'35', b'36', b'37'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35', b'34', b'37', b'36']}, 't1': [], 't2': []}
+on_message temperature/t2 b'39'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34', b'35', b'36', b'37'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35', b'34', b'37', b'36', b'39']}, 't1': [], 't2': []}
+on_message temperature/t1 b'38'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34', b'35', b'36', b'37', b'38'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35', b'34', b'37', b'36', b'39']}, 't1': [], 't2': []}
+on_message temperature/t2 b'40'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34', b'35', b'36', b'37', b'38'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35', b'34', b'37', b'36', b'39', b'40']}, 't1': [], 't2': []}
+on_message temperature/t1 b'39'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34', b'35', b'36', b'37', b'38', b'39'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35', b'34', b'37', b'36', b'39', b'40']}, 't1': [], 't2': []}
+on_message temperature/t2 b'38'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34', b'35', b'36', b'37', b'38', b'39'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35', b'34', b'37', b'36', b'39', b'40', b'38']}, 't1': [], 't2': []}
+on_message temperature/t1 b'0'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35', b'34', b'37', b'36', b'39', b'40', b'38']}, 't1': [], 't2': []}
+on_message temperature/t2 b'1'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35', b'34', b'37', b'36', b'39', b'40', b'38', b'1']}, 't1': [], 't2': []}
+mean t1: 29.27777777777778
+mean t2: 29.333333333333332
+on_message temperature/t1 b'1'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35', b'34', b'37', b'36', b'39', b'40', b'38', b'1']}, 't1': [], 't2': []}
+on_message temperature/t2 b'2'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35', b'34', b'37', b'36', b'39', b'40', b'38', b'1', b'2']}, 't1': [], 't2': []}
+on_message temperature/t1 b'2'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35', b'34', b'37', b'36', b'39', b'40', b'38', b'1', b'2']}, 't1': [], 't2': []}
+on_message temperature/t2 b'3'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35', b'34', b'37', b'36', b'39', b'40', b'38', b'1', b'2', b'3']}, 't1': [], 't2': []}
+on_message temperature/t1 b'3'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35', b'34', b'37', b'36', b'39', b'40', b'38', b'1', b'2', b'3']}, 't1': [], 't2': []}
+on_message temperature/t2 b'4'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35', b'34', b'37', b'36', b'39', b'40', b'38', b'1', b'2', b'3', b'4']}, 't1': [], 't2': []}
+on_message temperature/t1 b'4'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3', b'4'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35', b'34', b'37', b'36', b'39', b'40', b'38', b'1', b'2', b'3', b'4']}, 't1': [], 't2': []}
+on_message temperature/t2 b'3'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3', b'4'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35', b'34', b'37', b'36', b'39', b'40', b'38', b'1', b'2', b'3', b'4', b'3']}, 't1': [], 't2': []}
+mean t1: 24.40909090909091
+mean t2: 24.545454545454547
+on_message temperature/t1 b'5'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3', b'4', b'5'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35', b'34', b'37', b'36', b'39', b'40', b'38', b'1', b'2', b'3', b'4', b'3']}, 't1': [], 't2': []}
+on_message temperature/t2 b'4'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3', b'4', b'5'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35', b'34', b'37', b'36', b'39', b'40', b'38', b'1', b'2', b'3', b'4', b'3', b'4']}, 't1': [], 't2': []}
+on_message temperature/t1 b'6'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3', b'4', b'5', b'6'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35', b'34', b'37', b'36', b'39', b'40', b'38', b'1', b'2', b'3', b'4', b'3', b'4']}, 't1': [], 't2': []}
+on_message temperature/t2 b'5'
+on_message {'lock': <unlocked _thread.lock object at 0x7f6e2d93f060>, 'temp': {'t1': [b'23', b'24', b'25', b'26', b'27', b'28', b'29', b'30', b'31', b'32', b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3', b'4', b'5', b'6'], 't2': [b'24', b'24', b'23', b'27', b'26', b'26', b'28', b'28', b'32', b'30', b'35', b'34', b'37', b'36', b'39', b'40', b'38', b'1', b'2', b'3', b'4', b'3', b'4', b'5']}, 't1': [], 't2': []}
+^CTraceback (most recent call last):
+  File "03_temperatures.py", line 52, in <module>
+    main(broker)
+  File "03_temperatures.py", line 40, in main
+    sleep(8)
+KeyboardInterrupt
+
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/Entrega4_mqtt[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/Entrega4_mqtt[00m$ python3 03_temperatures.py wild.mat.ucm.es[C[C[C[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es4 wild.mat.ucm.es_humidity.py wild.mat.ucm.es
+message:temperature/t1:b'14':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+message:temperature/t1:b'15':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+message:temperature/t1:b'16':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+message:temperature/t1:b'17':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+message:temperature/t1:b'18':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+message:temperature/t1:b'19':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+message:temperature/t1:b'20':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+message:temperature/t1:b'21':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+umbral superado 21, suscribiendo a humidity
+message:temperature/t1:b'22':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'23':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'24':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'25':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'26':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'27':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'28':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'29':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'30':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'31':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'32':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'33':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'34':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'35':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'36':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'37':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'38':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'39':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'0':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+temperatura 0 por debajo de umbral, cancelando suscripciÃ³n
+message:temperature/t1:b'1':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+message:temperature/t1:b'2':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+message:temperature/t1:b'3':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+message:temperature/t1:b'4':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+message:temperature/t1:b'5':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+^CTraceback (most recent call last):
+  File "04_humidity.py", line 56, in <module>
+    main(broker)
+  File "04_humidity.py", line 48, in main
+    mqttc.loop_forever()
+  File "/home/juan/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1756, in loop_forever
+    rc = self._loop(timeout)
+  File "/home/juan/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1150, in _loop
+    socklist = select.select(rlist, wlist, [], timeout)
+KeyboardInterrupt
+
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/Entrega4_mqtt[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/Entrega4_mqtt[00m$ python3 04_humidity.py wild.mat.ucm.es[4@3_temperatures[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P4_humidity[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es0 wild.mat.ucm.es5 wild.mat.ucm.es_ wild.mat.ucm.est wild.mat.ucm.ese wild.mat.ucm.esst_timer.py wild.mat.ucm.es
+LOG {'status': 0} 16 Sending CONNECT (u0, p0, wr0, wq0, wf0, c1, k60) client_id=b''
+LOG {'status': 0} 16 Sending SUBSCRIBE (d0, m1) [(b'clients/a', 0)]
+LOG {'status': 0} 16 Sending SUBSCRIBE (d0, m2) [(b'clients/b', 0)]
+LOG {'status': 0} 16 Sending PUBLISH (d0, q0, r0, m3), 'b'clients/timeout'', ... (15 bytes)
+LOG {'status': 0} 16 Sending PUBLISH (d0, q0, r0, m4), 'b'clients/timeout'', ... (15 bytes)
+LOG {'status': 0} 16 Sending PUBLISH (d0, q0, r0, m5), 'b'clients/timeout'', ... (16 bytes)
+LOG {'status': 0} 16 Sending PUBLISH (d0, q0, r0, m6), 'b'clients/timeout'', ... (16 bytes)
+LOG {'status': 0} 16 Received CONNACK (0, 0)
+LOG {'status': 0} 16 Received SUBACK
+LOG {'status': 0} 16 Received SUBACK
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/Entrega4_mqtt[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/Entrega4_mqtt[00m$ python3 05_test_timer.py wild.mat.ucm.es[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@i[8@meout.py
+python3: can't open file '05_timeout.py.py': [Errno 2] No such file or directory
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/Entrega4_mqtt[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/Entrega4_mqtt[00m$ python3 05_timeout.py.py wild.mat.ucm.es[C[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es
+CONNECT: {'broker': 'wild.mat.ucm.es'} {'session present': 0} 0
+^CTraceback (most recent call last):
+  File "05_timeout.py", line 54, in <module>
+    main(broker)
+  File "05_timeout.py", line 46, in main
+    mqttc.loop_forever()
+  File "/home/juan/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1756, in loop_forever
+    rc = self._loop(timeout)
+  File "/home/juan/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1150, in _loop
+    socklist = select.select(rlist, wlist, [], timeout)
+KeyboardInterrupt
+
+]0;juan@juan-HP-ProBook-450-G8-Notebook-PC: ~/Entrega4_mqtt[01;32mjuan@juan-HP-ProBook-450-G8-Notebook-PC[00m:[01;34m~/Entrega4_mqtt[00m$ exit
+
+Script done on 2022-04-07 11:34:25+02:00 [COMMAND_EXIT_CODE="130"]
